@@ -60,7 +60,7 @@ class StarDataPlotter:
         plt.title('Magnitudine Assoluta (M_ass) vs Colore (b-y) per diversi Bins di Età')
         plt.xlabel('Colore (b-y)')
         plt.ylabel('Magnitudine Assoluta (M_ass)')
-        plt.gca().invert_yaxis()  #inverte l'asse y
+        plt.gca().invert_yaxis()  #inverti
         plt.legend(title='Bins di Età')
         plt.grid(True)
         plt.show()
